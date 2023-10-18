@@ -169,7 +169,7 @@ function App() {
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
             <h2 className="text-2xl text-gray-200 font-bold sm:text-3xl">
-              Fully customizable rules to match your unique needs
+              MosaBit ３つの特徴
             </h2>
 
           
@@ -467,7 +467,7 @@ function App() {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
        
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Your questions, answered</h2>
+          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">よくあるご質問</h2>
           <p className="mt-1 text-gray-600 dark:text-gray-400">Answers to the most frequently asked questions.</p>
         </div>
       

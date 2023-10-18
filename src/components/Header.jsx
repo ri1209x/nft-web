@@ -30,7 +30,7 @@ const Header = () => {
                         <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">Feature</a>
                         <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">How to</a>
                         <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">FAQ</a>
-                        <a className='rounded-full font-medium px-4 py-1 text-white bg-cyan-500 outline outline-cyan-500 hover:text-cyan-500 hover:bg-white duration-300 ' href='https://www.apple.com/jp/app-store/'>
+                        <a className='rounded-full font-medium px-4 py-2 text-white bg-cyan-500 outline outline-cyan-500 hover:text-cyan-500 hover:bg-white duration-300 ' href='https://www.apple.com/jp/app-store/'>
                             Downloads
                         </a>
                     </div>
