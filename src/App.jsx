@@ -151,6 +151,79 @@ function App() {
         もっとくわしく
       </button>
     </div>
+    {/* Projects */}
+    <div className='max-w-7xl px-4 mt-20 mx-auto'>
+      <h2 className='text-center text-lg md:text-xl md:text-left lg:text-3xl lg;text-left underline decoration-cyan-500'>
+        Projects
+      </h2>
+    </div>
+  
+    
+    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      
+      <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+        <h2 className="text-2xl font-bold md:text-4xl md:leading-tight ">Latest Project</h2>
+        <p className="mt-1 text-gray-600 ">See how game-changing companies are making the most of every engagement with Preline.</p>
+      </div>
+
+
+
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+        <a className="group  hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
+          <div className="aspect-w-16 aspect-h-10">
+            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+          </div>
+          <h3 className="mt-5 text-xl text-gray-800 ">
+            Atlassian powers sales and support at scale with Preline.
+          </h3>
+          <p className="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-cyan-400 ">
+            Learn more
+            <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" clipRule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
+            </svg>
+          </p>
+        </a>
+    
+
+
+        <a className="group hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
+          <div className="aspect-w-16 aspect-h-10">
+            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+          </div>
+          <h3 className="mt-5 text-xl text-gray-800 ">
+            Atlassian powers sales and support at scale with Preline.
+          </h3>
+          <p className="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-cyan-400 ">
+            Learn more
+            <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" clipRule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
+            </svg>
+          </p>
+        </a>
+
+
+
+        <a className="group hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
+          <div className="aspect-w-16 aspect-h-10">
+            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+          </div>
+          <h3 className="mt-5 text-xl text-gray-800 ">
+            Atlassian powers sales and support at scale with Preline.
+          </h3>
+          <p className="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-cyan-400 ">
+            Learn more
+            <svg className="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fillRule="evenodd" clipRule="evenodd" d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z" fill="currentColor"/>
+            </svg>
+          </p>
+        </a>
+        
+      </div>
+
+    </div>
+
+
   </section>
   {/* Feature */}
   <section>
@@ -168,7 +241,7 @@ function App() {
      
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-            <h2 className="text-2xl text-gray-200 font-bold sm:text-3xl">
+            <h2 className="text-2xl text-center sm:text-left text-gray-200 font-bold sm:text-3xl">
               MosaBit ３つの特徴
             </h2>
 
