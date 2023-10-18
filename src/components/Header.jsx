@@ -26,12 +26,12 @@ const Header = () => {
                 </div>
                 <div id="navbar-image-2" className="hs-collapse hidden  transition-all duration-300 basis-full grow sm:block">
                     <div className="flex flex-col gap-6 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
-                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#" aria-current="page">Landing</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">Account</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">Work</a>
-                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">Blog</a>
-                        <a className='rounded-full font-medium px-4 py-1 text-white bg-cyan-500 outline outline-cyan-500 hover:text-cyan-500 hover:bg-white duration-300 ' href='#'>
-                            Contact
+                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#" aria-current="page">Service</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">Feature</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">How to</a>
+                        <a className="font-medium text-gray-600 hover:text-gray-400 hover:underline" href="#">FAQ</a>
+                        <a className='rounded-full font-medium px-4 py-1 text-white bg-cyan-500 outline outline-cyan-500 hover:text-cyan-500 hover:bg-white duration-300 ' href='https://www.apple.com/jp/app-store/'>
+                            Downloads
                         </a>
                     </div>
                     

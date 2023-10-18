@@ -378,7 +378,7 @@ function App() {
           <h5 className="mb-2 text-3xl font-bold text-gray-900 ">Work fast from anywhere</h5>
           <p className="mb-5 text-base text-gray-500 sm:text-lg ">Stay up to date and move work forward with Flowbite on iOS & Android. Download the app today.</p>
           <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-              <a href="https://itunes.apple.com/jp/app/" 
+              <a href="https://www.apple.com/jp/app-store/" 
               className="w-full sm:w-auto  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5">
               
                 <img className='wr-3 w-44 h-auto'  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&releaseDate=1464739200&h=b488c8877a1de0c0ee752e2cea473eec" 
