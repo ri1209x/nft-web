@@ -152,14 +152,14 @@ function App() {
       </button>
     </div>
     {/* Projects */}
-    <div className='max-w-7xl px-4 mt-20 mx-auto'>
+    <div className='max-w-7xl px-4 mt-20 mx-auto '>
       <h2 className='text-center text-lg md:text-xl md:text-left lg:text-3xl lg;text-left underline decoration-cyan-500'>
         Projects
       </h2>
     </div>
   
     
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-16">
       
       <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
         <h2 className="text-2xl font-bold md:text-4xl md:leading-tight ">Latest Project</h2>
@@ -241,7 +241,7 @@ function App() {
      
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-            <h2 className="text-2xl text-center sm:text-left text-gray-200 font-bold sm:text-3xl">
+            <h2 className="text-2xl text-center sm:text-left text-gray-800 dark:text-gray-200 font-bold sm:text-3xl">
               MosaBit ３つの特徴
             </h2>
 
@@ -249,37 +249,37 @@ function App() {
             <nav className="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
               <button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-cyan-700 active" id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1" role="tab">
                 <span className="flex">
-                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
                     <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                   </svg>
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 ">Advanced tools</span>
-                    <span className="block mt-1 text-gray-200 dark:hs-tab-active:text-gray-200 ">Use Preline thoroughly thought and automated libraries to manage your businesses.</span>
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 ">Advanced tools</span>
+                    <span className="block mt-1 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-gray-200 ">Use Preline thoroughly thought and automated libraries to manage your businesses.</span>
                   </span>
                 </span>
               </button>
 
               <button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-cyan-700" id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2" role="tab">
                 <span className="flex">
-                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
                   </svg>
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 ">Smart dashboards</span>
-                    <span className="block mt-1 text-gray-200 dark:hs-tab-active:text-gray-200 ">Quickly Preline sample components, copy-paste codes, and start right off.</span>
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 ">Smart dashboards</span>
+                    <span className="block mt-1 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-gray-200 ">Quickly Preline sample components, copy-paste codes, and start right off.</span>
                   </span>
                 </span>
               </button>
 
               <button type="button" className="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-cyan-700" id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3" role="tab">
                 <span className="flex">
-                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <svg className="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z"/>
                   </svg>
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-200 dark:hs-tab-active:text-blue-500 ">Powerful features</span>
-                    <span className="block mt-1 text-gray-200 dark:hs-tab-active:text-gray-200 ">Reduce time and effort on building modern look design with Preline only.</span>
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-blue-500 ">Powerful features</span>
+                    <span className="block mt-1 text-gray-800 dark:text-gray-200 dark:hs-tab-active:text-gray-200 ">Reduce time and effort on building modern look design with Preline only.</span>
                   </span>
                 </span>
               </button>
@@ -527,8 +527,8 @@ function App() {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
        
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">よくあるご質問</h2>
-          <p className="mt-1 text-gray-600 dark:text-gray-400">Answers to the most frequently asked questions.</p>
+          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight text-white">よくあるご質問</h2>
+          <p className="mt-1 text-gray-400">Answers to the most frequently asked questions.</p>
         </div>
       
 
@@ -536,12 +536,12 @@ function App() {
          
           <div className="hs-accordion-group">
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05] active" id="hs-basic-with-title-and-arrow-stretched-heading-one">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transition  text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one">
                 Can I cancel at anytime?
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
@@ -553,12 +553,12 @@ function App() {
             </div>
 
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-two">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transition text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two">
                 My team has credits. How do we use them?
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
@@ -570,12 +570,12 @@ function App() {
             </div>
 
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-three">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transition text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three">
                 How does Preline's pricing work?
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
@@ -587,12 +587,12 @@ function App() {
             </div>
 
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-four">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transitiontext-gray-500 text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four">
                 How secure is Preline?
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-600 group-hover:text-gray-500 dark:text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3  group-hover:text-gray-500 text-gray-400" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
@@ -604,12 +604,12 @@ function App() {
             </div>
 
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-five">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transition text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five">
                 How do I get access to a theme I purchased?
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-200 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-400 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-200 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-400 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
@@ -621,12 +621,12 @@ function App() {
             </div>
 
             <div className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6 dark:hs-accordion-active:bg-white/[.05]" id="hs-basic-with-title-and-arrow-stretched-heading-six">
-              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
+              <button className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-left transition  text-gray-200 hover:text-gray-400" aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six">
                 Upgrade License Type
-                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-200 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:hidden block w-3 h-3 text-gray-400 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
-                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-200 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg className="hs-accordion-active:block hidden w-3 h-3 text-gray-400 group-hover:text-gray-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
               </button>
