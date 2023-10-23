@@ -10,13 +10,9 @@ function App() {
   <section>
     <div className='flex  text-center  mb-12'>
       <div className='relative w-full'>
-        <img className='w-full object-cover h-screen' src='/img/hero.jpg' />
+        <img className='w-full object-fit h-screen ' src='/img/hero1.png' />
       </div>
-      <div className='absolute left-40 inset-y-1/2'>
-        <h2 className='text-white text-2xl md:text-3xl lg-text-5xl'>
-          "MosaBit" <br/> is the best NFT service <br/> that adds value to your images!
-        </h2>
-      </div>
+      
      
     </div>
   </section>
