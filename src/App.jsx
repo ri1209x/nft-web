@@ -172,7 +172,7 @@ function App() {
       
         <a className="group  hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
           <div className="aspect-w-16 aspect-h-10">
-            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+            <img className="w-full object-cover rounded-xl" src="/img/dog.png" alt="Image Description"/>
           </div>
           <h3 className="mt-5 text-xl text-gray-800 ">
             Atlassian powers sales and support at scale with Preline.
@@ -189,7 +189,7 @@ function App() {
 
         <a className="group hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
           <div className="aspect-w-16 aspect-h-10">
-            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+            <img className="w-full object-cover rounded-xl" src="/img/woman1.png" alt="Image Description"/>
           </div>
           <h3 className="mt-5 text-xl text-gray-800 ">
             Atlassian powers sales and support at scale with Preline.
@@ -206,7 +206,7 @@ function App() {
 
         <a className="group hover:bg-gray-100 rounded-xl p-5 transition-all " href="#">
           <div className="aspect-w-16 aspect-h-10">
-            <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description"/>
+            <img className="w-full object-cover rounded-xl" src="/img/animals.png" alt="Image Description"/>
           </div>
           <h3 className="mt-5 text-xl text-gray-800 ">
             Atlassian powers sales and support at scale with Preline.
